@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Food</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/Logo.png"</a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()">  </i>
+                    <ul>
+                        <li><a href="file:///E:/JOHN%20RHEY/Magdale/index.html">HOME</a></li>
+                        <li><a href="file:///E:/JOHN%20RHEY/Magdale/Facts.html">FACTS</a></li>
+                        <li><a href="file:///E:/JOHN%20RHEY/Magdale/About.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+ <div class="text-box">
+     <h1>Magdale's Fanpage</h1>
+     <p>A timid, anime-loving teen gets drawn into a school cycling club, where his new friends help him face tough challenges to develop his racing talent.</p>
+     <a href="file:///E:/JOHN%20RHEY/Magdale/Facts.html" class="hero-btn">Know more</a>
+ </div>    
+
+        </section>
+
+<!-----Home---->
+<section class="Facts">
+    <h1>Fun Facts About Yowamushi pedal</h1>
+    <p>Here's some fun facts about Yowamushi pedal</p>
+    
+    <div class="row">
+        <div class="fact1">
+            <h3>Fun Fact #1 <br>Shinkai</h3>
+            <p>Shinkai in his "Straight-Line Demon" form According to Fukutomi, Shinkai has a high natural ability when it comes to road racing, game sense, athleticism, and explosive power. It's this and his extreme desire to win that makes him the fastest sprinter in the Inter High.</p>
+        </div>
+
+        <div class="fact1">
+            <h3>Fun Fact #2 <br>Meaning of Yowamushi Pedal</h3>
+            <p>Yowamushi Pedal (弱虫ペダル, Yowamushi Pedaru, lit. "Weakling Pedal") is a manga series written and illustrated by Wataru Watanabe.</p>
+        </div>
+
+        <div class="fact1">
+            <h3>Fun Fact #3 <br>Hakone Academy</h3>
+            <p>Hakone Academy Private High School (箱根学園), known simply as Hakone Academy and shortened from Hakone Gakuen to Hakogaku, is a school in the Ashigarashimo district of Kanagawa Prefecture and famous for it's renowned cycling club, the main rival of the Sohoku High Bicycle Club.</p>
+        </div>
+    </div>
+</section>
+
+<!-----Chefs-->
+<section class="Chefs">
+    <h1>Best Cyclists in Yowamushi Pedal</h1>
+    <p>Here are the 3 best Cyclists in Yowamushi Pedal</p>
+    <div class="row">
+        
+        <div class="Chefs1">
+            <img src="Images/Onoda.jpg">
+            <div class="layer">
+            <h3>Onoda Sakamichi</h3>
+
+        </div>
+        </div>
+        <div class="Chefs1">
+            <img src="Images/Akira.jpg">
+            <div class="layer">
+            <h3>Midousuji Akira</h3>
+
+        </div>
+        </div>
+        <div class="Chefs1">
+            <img src="Images/Yuusuke.jpg">
+            <div class="layer">
+            <h3>Makishima Yusuke</h3>
+
+        </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!---Know more-->
+<section class="knowmore">
+    <h1>LEARN MORE ABOUT YOWAMUSHI PEDAL</h1>
+    <a href="" Know More!></a>
+    <a href="file:///E:/JOHN%20RHEY/Magdale/About.html" class="hero-btn">Click here!</a>
+</section>
+
+<!--fOOter-->
+
+<section class="Footer">
+    <h4>
+        About us.
+    </h4>
+    <p>Know more about us on our socials</p>
+    <div class="icons">
+        <p>John Carlo Magdale<i class="fa fa-facebook-official"></i></p>
+    </div>
+
+    <p>Made by John Carlo Magdale</p>
+</section>
+
+<!-----Javascript for toggle Menu----->
+        <script>
+
+            var navlinks= document.getElementById("navlinks")
+
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
